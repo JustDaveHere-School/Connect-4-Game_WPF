@@ -59,14 +59,5 @@ namespace ConnectFourGUI.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1.
-        /// </summary>
-        internal static string TestResource {
-            get {
-                return ResourceManager.GetString("TestResource", resourceCulture);
-            }
-        }
     }
 }
