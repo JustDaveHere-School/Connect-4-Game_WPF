@@ -13,7 +13,7 @@ namespace ConnectFourGUI
     public class ConnectFourBoard
     {
         public Side[,] GameBoard { get; private set; }
-
+        // Comment
         public ConnectFourBoard(int rows, int cols)
         {
             // Instantiate an empty board
