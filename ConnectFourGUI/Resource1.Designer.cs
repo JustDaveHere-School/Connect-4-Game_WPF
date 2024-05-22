@@ -73,9 +73,39 @@ namespace ConnectFourGUI {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blue_wins {
+            get {
+                object obj = ResourceManager.GetObject("blue_wins", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tie {
+            get {
+                object obj = ResourceManager.GetObject("tie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap yellow_chip {
             get {
                 object obj = ResourceManager.GetObject("yellow_chip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellow_wins {
+            get {
+                object obj = ResourceManager.GetObject("yellow_wins", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

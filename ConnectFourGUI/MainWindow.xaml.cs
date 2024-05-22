@@ -76,7 +76,15 @@ namespace ConnectFourGUI
       EnableAllInsertButtons();
     }
 
-    private void InsertButton_Click(int column)
+    private void ShowTieScreen()
+    {
+      // Display TieWindow
+      TieWindow tieWindow = new TieWindow();
+      tieWindow.ShowDialog();
+    }
+
+
+      private void InsertButton_Click(int column)
     {
       if (inputLock == false)
       {
@@ -193,13 +201,23 @@ namespace ConnectFourGUI
 
       if (winner != Side.None)
       {
-        StatusText.Text = String.Format("{0} player Wins!", currentSide);
         DisableAllInsertButtons();
+        if (winner == Side.Blue)
+        {
+          BlueWinWindow blueWinWindow = new BlueWinWindow();
+          blueWinWindow.ShowDialog();
+        }
+        else
+        {
+          YellowWinWindow yellowWinWindow = new YellowWinWindow();
+          yellowWinWindow.ShowDialog();
+        }
       }
       else if (board.Tied())
       {
         StatusText.Text = "Tied game!";
         DisableAllInsertButtons();
+        ShowTieScreen();
       }
       else
       {
@@ -207,6 +225,7 @@ namespace ConnectFourGUI
         StatusText.Text = String.Format("{0}'s Turn", currentSide);
       }
     }
+
 
     private void DisableAllInsertButtons()
     {

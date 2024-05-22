@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFourGUI", "ConnectFourGUI\ConnectFourGUI.csproj", "{04D39172-878D-421C-A0FB-11EE226B176C}"
 EndProject
 Global
@@ -16,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C9E0BB1-7CDB-4FDA-BB0D-D62DEED6E04C}
 	EndGlobalSection
 EndGlobal

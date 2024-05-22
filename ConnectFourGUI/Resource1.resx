@@ -121,7 +121,16 @@
   <data name="blue_chip" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Chips\blue_chip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blue_wins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Chips\blue_wins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Chips\tie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="yellow_chip" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Chips\yellow_chip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow_wins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Chips\yellow_wins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

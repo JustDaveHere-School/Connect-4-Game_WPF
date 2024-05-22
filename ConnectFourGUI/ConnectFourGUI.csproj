@@ -55,11 +55,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BlueWinWindow.xaml.cs">
+      <DependentUpon>BlueWinWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Resource1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
+    <Compile Include="TieWindow.xaml.cs">
+      <DependentUpon>TieWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="YellowWinWindow.xaml.cs">
+      <DependentUpon>YellowWinWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="BlueWinWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -73,6 +86,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="TieWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="YellowWinWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -110,6 +131,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Chips\yellow_chip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chips\blue_wins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chips\tie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chips\yellow_wins.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
